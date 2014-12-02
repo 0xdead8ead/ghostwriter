@@ -10,7 +10,7 @@
 		},
 		"vulnDescription":"alerting for freedom",
 		"attackInfo":{
-			"attackName":"",
+			"attackName":"Auth Cookie Stealing",
 			"attackMetadata":{
 				"cost":"",
 				"damage":"",
@@ -35,7 +35,7 @@
 		},
 		"vulnDescription":"database injection",
 		"attackInfo":{
-			"attackName":"",
+			"attackName":"Database Dump",
 			"attackMetadata":{
 				"cost":"",
 				"damage":"",

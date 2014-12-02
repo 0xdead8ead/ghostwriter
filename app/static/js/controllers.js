@@ -1,8 +1,10 @@
+//Imports
 var ghostwriterApp = angular.module('ghostwriter', [
         'ui.router',
         'ui.bootstrap'
     ]);
 
+//Main Controller
 ghostwriterApp.controller('main', ['$scope', '$http',
 	function ($scope, $http) {
 		$http.get('test/phones.json').success(function(data) {
@@ -19,15 +21,6 @@ ghostwriterApp.controller('SearchController', ['$scope', '$http',
     //More For the Main Controller
 }]);
 
-ghostwriterApp.controller('TestController', ['$scope', '$http',
-    function ($scope, $http) {
-        $http.get('test/phones.json').success(function(data) {
-        $scope.phones = data;
-    });
-    //More For the Main Controller
-}]);
-
-
 
 //Findings Search Form Controller
 ghostwriterApp.controller('FindingsController', ['$scope', '$http',
@@ -39,9 +32,7 @@ ghostwriterApp.controller('FindingsController', ['$scope', '$http',
 }]);
 
 
-
-
-
+//AngularJS Router
 ghostwriterApp.config(function($stateProvider, $urlRouterProvider) {
   //
   // For any unmatched url, redirect to /state1
@@ -67,23 +58,4 @@ ghostwriterApp.config(function($stateProvider, $urlRouterProvider) {
       templateUrl: "templates/search.html",
       controller: "SearchController"
     });
-});
-
-
-
-
-
-ghostwriterApp.controller('alertingtest', function ($scope) {
-  $scope.alerts = [
-    { type: 'danger', msg: 'Oh snap! Change a few things up and try submitting again.' },
-    { type: 'success', msg: 'Well done! You successfully read this important alert message.' }
-  ];
-
-  $scope.addAlert = function() {
-    $scope.alerts.push({msg: 'Another alert!'});
-  };
-
-  $scope.closeAlert = function(index) {
-    $scope.alerts.splice(index, 1);
-  };
 });

@@ -6,10 +6,10 @@
     	<accordion close-others="oneAtATime">
     	    <accordion-group heading="{{finding.vulnName}}" ng-repeat="finding in findings">
                 <h4>Vulnerability Description:</h4>
-    	           {{finding.vulnDescription}}
+                   {{finding.vulnDescription}}
                 <br>
                 <h4>Attack Name:</h4>
-                   {{finding.attackName}}
+                   {{finding.attackInfo.attackName}}
                 <br>
                 <h4>Analysis:</h4>
                    {{finding.analysis}}

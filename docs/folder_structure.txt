@@ -1,0 +1,14 @@
+Folder Structure for Project
+----------------------------
+
+ghostwriter - App Folder
+`	
+		handlers
+		lib
+		static
+			css
+			js
+			index.html
+		templates	
+	
+

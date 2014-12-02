@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" ng-app="ghostwriter">
+<head>
+  <meta charset="utf-8">
+  <title>App</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <!-- <link rel="stylesheet" href="css/app.css"> -->
+
+  <!-- Javascript -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="js/controllers.js"></script>
+
+</head>
+<body>
+<!-- Main Site Container -->
+<div class="container">
+    <div class="row">
+        <!-- Left Menu Bar -->
+        <div class="col-sm-3">
+            <ul id="sidebar" class="nav nav-stacked affix">
+                <li><a ui-sref="about">About ></a></li>
+                <li><a ui-sref="blog">Blog ></a></li>
+                <li><a ui-sref="findings">Findings ></a></li>
+                <li><a ui-sref="search">Search DB ></a></li>
+                <li><a href="https://github.com/f47h3r/">GitHub ></a></li>
+            </ul>
+        </div>
+        <!-- Content View Area -->
+        <div class="col-sm-7" ng-controller="main">
+            <div ui-view></div>
+        </div>
+    </div>
+</div>
+</div> 
+</body>
+</html>

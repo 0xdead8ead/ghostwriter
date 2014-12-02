@@ -1,0 +1,25 @@
+[
+	{
+		"vulnName":"",
+		"iseVulnId":"",
+		"vulnMetadata":{
+			"assets":"",
+			"threats":"",
+			"exposure":"",
+			"discoverability":""
+		},
+		"vulnDescription":"",
+		"attackInfo":{
+			"attackName":"",
+			"attackMetadata":{
+				"cost":"",
+				"damage":"",
+				"reward":"",
+				"escalation":""
+			},
+			"attackDescription":"",
+			"attackProcess":"",
+			"attackCode":""
+		}
+	}
+]

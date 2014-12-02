@@ -1,0 +1,77 @@
+[
+	{
+		"vulnName":"Cross-Site Scripting",
+		"iseVulnId":"",
+		"vulnMetadata":{
+			"assets":"",
+			"threats":"",
+			"exposure":"",
+			"discoverability":""
+		},
+		"vulnDescription":"alerting for freedom",
+		"attackInfo":{
+			"attackName":"",
+			"attackMetadata":{
+				"cost":"",
+				"damage":"",
+				"reward":"",
+				"escalation":""
+			},
+			"attackDescription":"",
+			"attackProcess":"",
+			"attackCode":""
+		},
+		"analysis":"This is Bad",
+		"recommendation":"Mitigate this."
+	},
+	{
+		"vulnName":"SQL Injection",
+		"iseVulnId":"",
+		"vulnMetadata":{
+			"assets":"",
+			"threats":"",
+			"exposure":"",
+			"discoverability":""
+		},
+		"vulnDescription":"database injection",
+		"attackInfo":{
+			"attackName":"",
+			"attackMetadata":{
+				"cost":"",
+				"damage":"",
+				"reward":"",
+				"escalation":""
+			},
+			"attackDescription":"",
+			"attackProcess":"",
+			"attackCode":""
+		},
+		"analysis":"This is Bad",
+		"recommendation":"Mitigate this."
+	},
+	{
+		"vulnName":"XML Entity Injection",
+		"iseVulnId":"",
+		"vulnMetadata":{
+			"assets":"",
+			"threats":"",
+			"exposure":"",
+			"discoverability":""
+		},
+		"vulnDescription":"Injection of Malicious XML Entities",
+		"attackInfo":{
+			"attackName":"SSRF Injection",
+			"attackMetadata":{
+				"cost":"",
+				"damage":"",
+				"reward":"",
+				"escalation":""
+			},
+			"attackDescription":"",
+			"attackProcess":"",
+			"attackCode":""
+		},
+		"analysis":"This is Bad",
+		"recommendation":"Mitigate this."
+	}
+]

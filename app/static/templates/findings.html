@@ -1,0 +1,23 @@
+<h2>Findings</h2>
+<hr>
+<div class="row" style="border-radius:23px;border-style:solid;border-color:#E7E0E0">
+    <br>
+    <div class="col-sm-12">
+    	<accordion close-others="oneAtATime">
+    	    <accordion-group heading="{{finding.vulnName}}" ng-repeat="finding in findings">
+                <h4>Vulnerability Description:</h4>
+    	           {{finding.vulnDescription}}
+                <br>
+                <h4>Attack Name:</h4>
+                   {{finding.attackName}}
+                <br>
+                <h4>Analysis:</h4>
+                   {{finding.analysis}}
+                <br>
+                <h4>Recommendations:</h4>
+                   {{finding.recommendation}}
+                <br>
+            </accordion-group>
+        </accordion>
+    </div>
+</div>

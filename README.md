@@ -1,9 +1,11 @@
-Ghostwriter - ISE Findings DB Webapp
-------------------------------------
+Ghostwriter - Findings DB Webapp
+================================
 
 Language(s):	Golang / Javacript ( Angular.JS / Angular-UI / etc )
+
 Author:		Chase Schultz
 
-Description:
+Description
+-----------
 
 Collection of Findings Neatly Organized for Copy-Pasta
